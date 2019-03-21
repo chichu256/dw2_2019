@@ -1,0 +1,142 @@
+html{
+	background-color:skyblue; 
+	margin:0;
+	padding:0;
+}
+body{
+	width:900px;
+	margin:30px auto;
+	padding:0;
+	background-color:#0,5,30;
+}
+aside{
+	background-image: "yo.jpg";
+}
+
+h1{
+color: blue;
+font-family: "Arial Black";
+font-size: 30px;
+font-style: normal;
+font-weight: bold;
+text-decoration: none;
+text-align: center;
+}
+
+table{
+border: 50px;
+border-color: blue;
+color: black;
+font-family: "Time New Roman";
+font-size: 16px;
+font-style: normal;
+font-weight: bold;
+text-decoration: none;
+text-align: center;
+}
+
+h2{
+color: blue;
+font-family: "Time New Roman";
+font-size: 30px;
+font-style: normal;
+font-weight: bold;
+text-decoration: underline;
+}
+
+dt{
+color: blue;
+font-family: "Arial Black";
+font-size: 16px;
+font-style: italic;
+font-weight: bold;
+text-decoration: none;
+text-align: left;
+}
+
+p{
+color: blue;
+font-family: "Arial Black";
+font-size: 14px;
+font-style: normal;
+font-weight: bold;
+text-decoration: none;
+text-align: justify;
+}
+
+dd{
+color: blue;
+font-family: "Arial Black";
+font-size: 14px;
+font-style: normal;
+font-weight: bold;
+text-decoration: none;
+text-align: justify;
+}
+/* Tell the browser to render HTML 5 elements as block */  
+header, footer, aside, nav, article, section {  
+     display: block;  
+}  
+
+header{
+	background-color:#c0c0c0; 
+	text-align:center;
+	color:#000;	
+	line-height:1.3em;
+	font-size:17px;
+	text-shadow:1px 1px 0 white;
+	border-bottom:1px solid #ebebeb;
+}
+
+	header h1{
+		padding:30px 0 10px;
+		margin:0; 
+	}
+
+article{
+	padding:30px;
+	width:570px;
+	float:left;
+	border-bottom:1px solid #ebebeb;
+}
+
+aside{
+	width:250px;
+	float:right;
+	border-left:1px solid #ebebeb;
+	background-color: #F7F6F6;
+}
+	aside nav, aside section{
+	padding:20px 30px 20px 30px;	
+	}
+footer{
+	clear:both;
+	background-color:white; 
+	text-align:center;
+	color:#bbb;	
+	font-size:25px;
+	text-shadow:1px 1px 0 white;
+	border-top:1px solid #ebebeb;
+}
+	footer a{
+		color:white;	
+		text-decoration: none;
+	}
+	footer p{
+		margin:0;
+		padding:10px 0;
+	}
+
+section{
+	padding:20px 0;
+}
+
+ul{
+	padding-left:20px;
+}
+ul li{
+	margin:10px 0;
+}
+a{
+	color:#747474;
+}
